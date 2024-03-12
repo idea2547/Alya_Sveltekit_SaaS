@@ -41,6 +41,8 @@ You can preview the production build with `npm run preview`.
 
 
 ## Pocketbase back-end
+Open Source backend for your next SaaS and Mobile app in 1 file written in go. Light-weight (Firebase, supabase alternative). Can support up to 10,000 concurrent user on low spec hosting server.
+(PocketBase can easily serve 10,000+ persistent realtime connections on a cheap $4 Hetzner CAX11 VPS (2vCPU, 4GB RAM)).
 
 [Pocketbase install on local](https://pocketbase.io/docs/) - Follow the official documentation
 
