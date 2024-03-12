@@ -1,5 +1,7 @@
-# create-svelte
+# Sveltekit SaaS Full-Stack
 
+Techstack:
+sveltekit, pocketbase, stripe
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
 ## Creating a project
@@ -36,3 +38,22 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+
+## Pocketbase back-end
+Open Source backend for your next SaaS and Mobile app in 1 file written in go. Light-weight (Firebase, supabase alternative). Can support up to 10,000 concurrent user on low spec hosting server.
+(PocketBase can easily serve 10,000+ persistent realtime connections on a cheap $4 Hetzner CAX11 VPS (2vCPU, 4GB RAM)).
+
+[Pocketbase install on local](https://pocketbase.io/docs/) - Follow the official documentation
+
+Pocketbase run
+./pocketbase serve
+
+STRIPE ENV
+
+
+## About deployment
+
+Front-end page - Cloudflare
+
+Back-end - DigitalOcean
