@@ -39,6 +39,11 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
+
+## Pocketbase back-end
+
+[Pocketbase install on local](https://pocketbase.io/docs/) - Follow the official documentation
+
 Pocketbase run
 ./pocketbase serve
 
