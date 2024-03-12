@@ -1,5 +1,7 @@
-# create-svelte
+# Sveltekit SaaS Full-Stack
 
+Techstack:
+sveltekit, pocketbase, stripe
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
 ## Creating a project
@@ -41,3 +43,10 @@ Pocketbase run
 ./pocketbase serve
 
 STRIPE ENV
+
+
+## About deployment
+
+Front-end page - Cloudflare
+
+Back-end - DigitalOcean
