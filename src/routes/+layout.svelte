@@ -34,11 +34,10 @@
 			<svelte:fragment slot="trail">
 				<a
 					class="btn btn-sm variant-ghost-surface"
-					href="https://discord.gg/EXqV7W8MtY"
-					target="_blank"
+					href="/pricing"
 					rel="noreferrer"
 				>
-					Discord
+					Pricing
 				</a>
 				<a
 					class="btn btn-sm variant-ghost-surface"

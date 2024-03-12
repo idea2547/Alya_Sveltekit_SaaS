@@ -6,11 +6,8 @@
 		<div class="relative">
 			
 			<h1 class="text-center text-5xl sm:text-6xl lg:text-left lg:text-7xl">
-				Sveltekit SaaS <br/>open-source
-				<span class="relative">
-					<span class="relative bg-gradient-to-r from-primary to-secondaryLight bg-clip-text text-transparent dark:from-primaryLight dark:to-secondaryLight md:px-2">1.0</span>
-				</span>
-			
+				Sveltekit SaaS 
+		
 			</h1>				
 			<br />
 			<p class="text-center text-3xl sm:text-3xl lg:text-left lg:text-3xl">
