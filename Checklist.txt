@@ -1,0 +1,4 @@
+-Create login and logout system pocketbase ✅
+-Create register system and page
+-Create smtp.gmail for using to verified the new user through gmail
+
