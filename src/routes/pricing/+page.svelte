@@ -97,7 +97,7 @@
 			<h3>We live we love</h3>
 		</div>
 		<div class="mt-16 grid gap-8 sm:mx-auto sm:w-2/3 md:w-full md:grid-cols-2 lg:grid-cols-3">
-			<div class="rounded-3xl border border-gray-100 bg-white p-8 py-12 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none sm:p-12">
+			<div class="rounded-3xl border border-gray-100 bg-white p-8 py-12 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-700 dark:shadow-none sm:p-12">
 				<div class="space-y-12 text-center">
 					<h3 class="text-2xl font-semibold text-gray-800 transition dark:text-white">Pack 1</h3>
 				
@@ -147,7 +147,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="rounded-3xl border border-gray-100 bg-white p-8 py-12 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none sm:p-12">
+			<div class="rounded-3xl border border-gray-100 bg-white p-8 py-12 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-700 dark:shadow-none sm:p-12">
 				<div class="space-y-12 text-center">
 					<h3 class="text-2xl font-semibold text-gray-800 transition dark:text-white">แพ็คโทเคนขนาดกลาง</h3>
 					<div class="space-y-6">
@@ -193,7 +193,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="rounded-3xl border border-gray-100 bg-white p-8 py-12 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none sm:p-12">
+			<div class="rounded-3xl border border-gray-100 bg-white p-8 py-12 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-700 dark:shadow-none sm:p-12">
 				<div class="space-y-12 text-center">
 					<h3 class="text-2xl font-semibold text-gray-800 transition dark:text-white">แพ็คโทเคนขนาดใหญ่</h3>
 					<div class="space-y-6">
