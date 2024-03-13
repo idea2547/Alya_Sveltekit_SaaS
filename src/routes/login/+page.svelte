@@ -28,53 +28,6 @@
 	};
 </script>
 
-<style>
-	.red {
-	  color: red;
-	}
-  
-	.yellow {
-	  color: rgb(255, 238, 0);
-	}
-
-	label{
-		padding-right: .5em;
-	}
-	small{
-		padding-left: .5em;
-		color: #ff0000;
-	}
-
-	span{
-		color: #000000;
-		border-radius: 115px;
-	}
-	.btn-auth-img:hover{
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-
-	}
-	.btn-auth{
-		border:0;
-		background-color: rgba(84, 81, 81, 0.0);
-		padding:.01em;
-	}
-	.btn-auth:hover{
-		border:0;
-		padding:.01em;
-		text-decoration: none;
-		background-color: rgba(84, 81, 81, 0.0);
-	}
-	.auth-form{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-	}
-	.auth-form p{
-		margin:0;
-	}
-</style>
 
 <div class="flex flex-col items-center h-full w-full pt-32 sm:pt-40 md:pt-28">
 	<h2 class="mt-2 text-center text-3xl font-bold tracking-tight text-base-content">
