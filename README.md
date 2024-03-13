@@ -1,4 +1,4 @@
-# Sveltekit SaaS Full-Stack
+# Sveltekit SaaS - Ship your own new SaaS fast!
 
 Techstack:
 sveltekit, pocketbase, stripe
@@ -44,13 +44,16 @@ You can preview the production build with `npm run preview`.
 Open Source backend for your next SaaS and Mobile app in 1 file written in go. Light-weight (Firebase, supabase alternative). Can support up to 10,000 concurrent user on low spec hosting server.
 (PocketBase can easily serve 10,000+ persistent realtime connections on a cheap $4 Hetzner CAX11 VPS (2vCPU, 4GB RAM)).
 
-[Pocketbase install](https://pocketbase.io/docs/) - Follow the official documentation
-[Download Pocketbase](https://github.com/pocketbase/pocketbase/releases/download/v0.22.3/pocketbase_0.22.3_windows_amd64.zip)
+[Click here to install pocketbase](https://pocketbase.io/docs/) - Follow the official documentation
 
 To run pocketbase type:
 ./pocketbase serve
 
-STRIPE ENV
+Enter your stripe environment key
+```bash
+VITE_STRIPE_SECRET_KEY=
+VITE_STRIPE_WEBHOOK_KEY=
+```
 
 
 ## About deployment
