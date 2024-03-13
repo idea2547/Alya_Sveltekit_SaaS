@@ -1,4 +1,4 @@
-import { redirect, invalid, errors } from "@sveltejs/kit";
+import { redirect, errors } from "@sveltejs/kit";
 import { validateData } from "$lib/utils";
 import { loginUserSchema } from "$lib/schemas";
 
