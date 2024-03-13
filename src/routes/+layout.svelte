@@ -28,8 +28,8 @@
 <!-- App Shell -->
 <AppShell>
 	<svelte:fragment slot="header">
-		<!-- App Bar -->
-		<AppBar>
+		<nav id="navbar" class="fixed h-14 top-0 inset-x-0 z-20 w-full border-b border-gray-100 bg-white/80 backdrop-blur dark:border-gray-700/30 dark:bg-gray-900/80">
+			<AppBar>
 			<svelte:fragment slot="lead">
 				<strong class="text-xl uppercase">Sveltekit SaaS</strong>
 			</svelte:fragment>
@@ -66,6 +66,9 @@
 				{/if}
 			</svelte:fragment>
 		</AppBar>
+		</nav>
+		<!-- App Bar -->
+		
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
