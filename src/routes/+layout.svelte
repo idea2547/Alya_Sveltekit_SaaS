@@ -21,6 +21,8 @@
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
+
+	export let data;
 </script>
 
 <!-- App Shell -->
@@ -29,7 +31,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">Skeleton</strong>
+				<strong class="text-xl uppercase">Sveltekit SaaS</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
@@ -47,14 +49,21 @@
 				>
 					Twitter
 				</a>
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="https://github.com/skeletonlabs/skeleton"
-					target="_blank"
-					rel="noreferrer"
-				>
-					GitHub
-				</a>
+				{#if data.user}
+					<form action="/logout" method="POST">
+						<button class="btn btn-sm variant-ghost-surface">
+							<a>
+								<span class="relative text-sm font-semibold lg:text-primary lg:dark:text-white">Logout</span>
+							</a>
+						</button>
+					</form>
+				{:else}
+					<button class="btn btn-sm variant-ghost-surface">
+						<a href="/login">
+							<span class="relative text-sm font-semibold lg:text-primary lg:dark:text-white">Login</span>
+						</a>
+					</button>
+				{/if}
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
