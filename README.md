@@ -5,21 +5,26 @@ Techstack:
 sveltekit, pocketbase, stripe
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+## Clone project to local and install
 
 ```bash
 # create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+npm install
 ```
+
+Enter your environment key
+```bash
+VITE_PB_URL=YOUR_POCKETBASE_INSTANCE_URL #example https://pockerbaseinstance.fly.dev NOT https://pockerbaseinstance.fly.dev/_/ which is pocketbase ui page
+VITE_AUTH_ADMIN_NAME=
+VITE_AUTH_ADMIN_PASS=
+VITE_STRIPE_SECRET_KEY=STRIPE_KEY
+VITE_WEBURL=YOUR_OWN_WEBURL
+```
+
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've clone a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
 npm run dev
@@ -50,25 +55,18 @@ Open Source backend for your next SaaS and Mobile app in 1 file written in go. L
 To run pocketbase type:
 ./pocketbase serve
 
-Enter your environment key
-```bash
-VITE_PB_URL=YOUR_POCKETBASE_INSTANCE_URL #example https://pockerbaseinstance.fly.dev NOT https://pockerbaseinstance.fly.dev/_/ which is pocketbase ui page
-VITE_AUTH_ADMIN_NAME=
-VITE_AUTH_ADMIN_PASS=
-VITE_STRIPE_SECRET_KEY=STRIPE_KEY
-VITE_WEBURL=YOUR_OWN_WEBURL
-```
+### Host your pocketbase on fly.io
+https://github.com/pocketbase/pocketbase/discussions/537
 
 
 ## About deployment
 
-Front-end page - Cloudflare
-
-Back-end - DigitalOcean
+Sveltekit project - Cloudflare pages for front-end web
+Back-end - DigitalOcean, Fly.io
 
 
 ## Create your Mail STMP for sending verification email, password change for your pocketbase app.
 1. Go to https://myaccount.google.com/apppasswords
 2. Create new app name and get your password
 3. Go to pocketbase instance -> go to setting -> mail setting -> Enable use SMTP mail server ->
-4. ![image](https://github.com/idea2547/Sveltekit_SaaS/assets/53974956/c188bf6a-951e-40a6-9093-f5556b1a8559) Your input field supposed to be like this
+4. Your input field supposed to be like this ![image](https://github.com/idea2547/Sveltekit_SaaS/assets/53974956/c188bf6a-951e-40a6-9093-f5556b1a8559) 
