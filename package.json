@@ -45,6 +45,8 @@
   },
   "type": "module",
   "dependencies": {
+    "@stripe/stripe-js": "^1.54.0",
+    "stripe": "^12.9.0",
     "@floating-ui/dom": "1.6.3",
     "highlight.js": "11.9.0",
     "pocketbase": "^0.20.0-rc3",
