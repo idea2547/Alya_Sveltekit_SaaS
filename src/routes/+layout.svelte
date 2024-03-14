@@ -33,6 +33,7 @@
 				<a href="/#" aria-label="ampire logo" class="text-xl uppercase nav-link flex items-center space-x-2">Alya Sveltekit SaaS</a>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
+				<p1>Subscription count: {data?.Subscription}</p1>
 				<a
 					class="btn btn-sm variant-ghost-surface"
 					href="/pricing"
