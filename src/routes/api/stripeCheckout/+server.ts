@@ -41,8 +41,8 @@ export const POST: RequestHandler = async ({ locals, request, cookies }) => {
         metadata: {
             user_id: userId,
         },
-        success_url: `${import.meta.env.VITE_WEBURL}/success`,
-        cancel_url: `${import.meta.env.VITE_WEBURL}/cancel`,
+        success_url: `https://sveltekit-saas.pages.dev/success`,
+        cancel_url: `https://sveltekit-saas.pages.dev/cancel`,
     });
     const metadata2 = session.metadata.user_id;
     console.log(metadata2)
