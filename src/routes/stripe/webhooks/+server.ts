@@ -6,7 +6,7 @@ import Stripe from 'stripe';
 import PocketBase from "pocketbase"
 import { custom } from 'zod';
 
-const adminClient = new PocketBase(import.meta.env.VITE_PB_URL);
+
 
 const stripeSecretKey = import.meta.env.VITE_STRIPE_SECRET_KEY;
 const endpointSecret = import.meta.env.VITE_STRIPE_WEBHOOK_KEY; //test endpoint
@@ -28,8 +28,6 @@ export async function POST({ request, response }) {
 	// const body = await request.text()
 	//const record = serializeNonPOJOs(await locals.pb.collection('users').getOne(locals.user.id));
 	const Subscription = 1;
-	
-  
 	// var to hold event data
 	let event
   
@@ -45,6 +43,7 @@ export async function POST({ request, response }) {
 	  return json({ status: 'error', updateStatus: 'Failed', messages: err })
 	}
 
+    const adminClient = new PocketBase(import.meta.env.VITE_PB_URL);
 	await adminClient.admins.authWithPassword(import.meta.env.VITE_AUTH_ADMIN_NAME, import.meta.env.VITE_AUTH_ADMIN_PASS, {
 		// This will trigger auto refresh or auto reauthentication in case
 		// the token has expired or is going to expire in the next 30 minutes.
@@ -84,7 +83,7 @@ export async function POST({ request, response }) {
 			console.log(userid) */
 			//price_1NHMykIkcMoCTGo1Vt13jWdq
 			//live price_1NHNqNIkcMoCTGo1c1fPsDuv
-			if(priceId === "price_1OTM0qIkcMoCTGo1icLKlp6t"){
+			if(priceId === "price_1Ou9nhIkcMoCTGo1iiJOGJGS"){
 				console.log("Success")
 				const record = await adminClient.collection('users').getOne(userId)
 				const Subscription = record.Subscription + 1 //record.Tokens
