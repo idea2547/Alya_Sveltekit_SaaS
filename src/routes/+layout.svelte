@@ -30,7 +30,7 @@
 	<svelte:fragment slot="header">
 			<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">Sveltekit SaaS</strong>
+				<a href="/#" aria-label="ampire logo" class="text-xl uppercase nav-link flex items-center space-x-2">Sveltekit SaaS</a>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
