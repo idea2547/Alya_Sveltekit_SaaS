@@ -45,7 +45,6 @@
   },
   "type": "module",
   "dependencies": {
-    "flowbite": "^1.6.6",
     "@stripe/stripe-js": "^1.54.0",
     "stripe": "^12.9.0",
     "@floating-ui/dom": "1.6.3",
