@@ -62,3 +62,10 @@ VITE_STRIPE_WEBHOOK_KEY=
 Front-end page - Cloudflare
 
 Back-end - DigitalOcean
+
+
+## Create your Mail STMP for sending verification email, password change for your pocketbase app.
+1. Go to https://myaccount.google.com/apppasswords
+2. Create new app name and get your password
+3. Go to pocketbase instance -> go to setting -> mail setting -> Enable use SMTP mail server ->
+4. ![image](https://github.com/idea2547/Sveltekit_SaaS/assets/53974956/c188bf6a-951e-40a6-9093-f5556b1a8559) Your input field supposed to be like this
