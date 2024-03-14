@@ -41,8 +41,8 @@ export const POST: RequestHandler = async ({ locals, request, cookies }) => {
         metadata: {
             user_id: userId,
         },
-        success_url: "/success",
-        cancel_url: "/cancel",
+        success_url: "https://localhost:5173/success",
+        cancel_url: "https://localhost:5173/cancel",
     });
     const metadata2 = session.metadata.user_id;
     console.log(metadata2)
