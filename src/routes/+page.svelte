@@ -32,8 +32,9 @@
 					</div>
 				</div>
 
-				<div class="rounded-3xl mt-12 overflow-hidden sm:mt-12 sm:w-full lg:-mt-6 lg:w-4/12 anim-float-card">
+				<div class="text-center rounded-3xl mt-12 overflow-hidden sm:mt-12 sm:w-full lg:-mt-6 lg:w-4/12 anim-float-card">
 					<img class="w-full" src="./images/Roshidere.png" alt="project illustration" style="width:auto"/>
+					<p class="text-lg sm:text-xl">Ship your waifu✅<br/>(Alya Roshidere)</p>
 				</div>
 				
 			</div>
