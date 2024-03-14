@@ -1,6 +1,9 @@
 # Alya Sveltekit SaaS - Launch Your Own SaaS Rapidly!
 Welcome to Sveltekit SaaS, your go-to solution for swiftly building and deploying your Software as a Service (SaaS) applications. Powered by a robust tech stack including Sveltekit, Pocketbase, and Stripe, we provide everything you need to kickstart your project and bring your ideas to life.
 
+![image](https://github.com/idea2547/Alya_Sveltekit_SaaS/assets/53974956/9914ac07-89e0-4c98-8e64-456aab557933)
+
+
 Techstack:
 sveltekit, pocketbase, stripe
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
