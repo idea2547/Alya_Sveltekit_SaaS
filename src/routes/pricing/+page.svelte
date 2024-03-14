@@ -11,7 +11,7 @@
 			},
 			body: JSON.stringify({ 
                 items: [
-                    { id: "price_1OTM0qIkcMoCTGo1icLKlp6t", quantity: "1" }
+                    { id: "price_1Ou9nhIkcMoCTGo1iiJOGJGS", quantity: "1" }
                 ]
             }),
 		}).then((data) => {
@@ -64,9 +64,9 @@
 
     const products : Product[] = [
 		{
-			id: "price_1NHNqNIkcMoCTGo1c1fPsDuv",
+			id: "price_1Ou9nhIkcMoCTGo1iiJOGJGS",
 			name: "แพ็คโทเคนขนาดจิ้ว จำนวน 5000",
-			price: 99
+			price: 30
 		},
 		{
 			id: "price_1NHMykIkcMoCTGo1Vt13jWdq",
