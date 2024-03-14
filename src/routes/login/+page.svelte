@@ -29,7 +29,7 @@
 </script>
 
 
-<div class="flex flex-col items-center h-full w-full pt-32 sm:pt-40 md:pt-28">
+<div class="p-5 flex flex-col items-center h-full w-full pt-32 sm:pt-40 md:pt-28">
 	<h2 class="mt-2 text-center text-3xl font-bold tracking-tight text-base-content">
 		Login
 	</h2>
@@ -37,6 +37,9 @@
 		or <a href="/register" class="text-primary font-medium hover:cursor-pointer hover:underline yellow"
 			>Register</a
 		> if you dont have one
+	</p>
+	<p class="text-center mt-1">
+		Example account- gmail: test@example.com password: 1234567890
 	</p>
 	<form
 		action="?/login"
@@ -86,7 +89,7 @@
 							d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
 						/></svg
 					>
-					<span>You have to verify your account first!</span>
+					<span>Please verify your account first!</span>
 				</div>
 			</div>
 		{/if}
