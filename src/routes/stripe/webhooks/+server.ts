@@ -87,7 +87,7 @@ export async function POST({ request, response }) {
 				console.log("Success")
 				const record = await adminClient.collection('users').getOne(userId)
 				const Subscription = record.Subscription + 1 //record.Tokens
-				await adminClient.collection('users').update( userId, Subscription); /* `${userid}` */
+				await adminClient.collection('users').update( userId, { Subscription }); /* `${userid}` */
 			} else {
                 console.log("Fail")
 			}
