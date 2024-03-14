@@ -50,10 +50,13 @@ Open Source backend for your next SaaS and Mobile app in 1 file written in go. L
 To run pocketbase type:
 ./pocketbase serve
 
-Enter your stripe environment key
+Enter your environment key
 ```bash
-VITE_STRIPE_SECRET_KEY=
-VITE_STRIPE_WEBHOOK_KEY=
+VITE_PB_URL=YOUR_POCKETBASE_INSTANCE_URL #example https://pockerbaseinstance.fly.dev NOT https://pockerbaseinstance.fly.dev/_/ which is pocketbase ui page
+VITE_AUTH_ADMIN_NAME=
+VITE_AUTH_ADMIN_PASS=
+VITE_STRIPE_SECRET_KEY=STRIPE_KEY
+VITE_WEBURL=YOUR_OWN_WEBURL
 ```
 
 
