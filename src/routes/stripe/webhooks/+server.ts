@@ -3,7 +3,7 @@ import { error, json } from '@sveltejs/kit'
 import { env } from '$env/dynamic/private'
 /* import { adminClient } from "../../../adminClient.js"; */
 import Stripe from 'stripe';
-import PocketBase from "pocketbase"
+import { createAdminClient } from '$lib/pocketbase';
 import { custom } from 'zod';
 
 
@@ -43,12 +43,7 @@ export async function POST({ request, response }) {
 	  return json({ status: 'error', updateStatus: 'Failed', messages: err })
 	}
 
-    const adminClient = new PocketBase(import.meta.env.VITE_PB_URL);
-	await adminClient.admins.authWithPassword(import.meta.env.VITE_AUTH_ADMIN_NAME, import.meta.env.VITE_AUTH_ADMIN_PASS, {
-		// This will trigger auto refresh or auto reauthentication in case
-		// the token has expired or is going to expire in the next 30 minutes.
-		autoRefreshThreshold: 30 * 60
-	})
+    const adminClient = await createAdminClient();
 
 
 	/* Signature has been verified, so we can process events
