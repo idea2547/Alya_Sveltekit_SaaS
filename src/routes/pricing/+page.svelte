@@ -97,9 +97,30 @@
 			
 		</div>
 		<div class="mt-16 grid gap-8 sm:mx-auto sm:w-2/3 md:w-full md:grid-cols-2 lg:grid-cols-3">
-			<BlockPricing PackName="Pack 1"/>
-			<BlockPricing PackName="Pack 2"/>
-			<BlockPricing PackName="Pack 3"/>
+			<BlockPricing PackName="Pro Pack" 
+			Price="29.99" 
+			details={[
+				"New feature 1",
+				"New feature 2",
+				"Another new feature",
+				"Yet another feature"
+			]} />
+			<BlockPricing PackName="Pro Pack" 
+			Price="39.99" 
+			details={[
+				"New feature 1",
+				"New feature 2",
+				"Another new feature",
+				"Yet another feature"
+			]} />
+			<BlockPricing PackName="Pro Pack" 
+			Price="29.99" 
+			details={[
+				"New feature 1",
+				"New feature 2",
+				"Another new feature",
+				"Yet another feature"
+			]} />
 		</div>
 	</div>
 </section>
