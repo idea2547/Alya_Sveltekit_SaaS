@@ -79,15 +79,12 @@ export async function POST({ request, response }) {
         	const userId = session.metadata.user_id;
 			const priceId = items.data[0].price.id
 			console.log("Payment Success 101")
-			/* const userid = paymentIntentSucceeded.metadata.user_id; // Not working
-			console.log(userid) */
-			//price_1NHMykIkcMoCTGo1Vt13jWdq
-			//live price_1NHNqNIkcMoCTGo1c1fPsDuv
-			if(priceId === "price_1Ou9nhIkcMoCTGo1iiJOGJGS"){
+
+			if(priceId === "price_1Ou9nhIkcMoCTGo1iiJOGJGS"){ //Enter PriceID
 				console.log("Success")
 				const record = await adminClient.collection('users').getOne(userId)
 				const Subscription = record.Subscription + 1 //record.Tokens
-				await adminClient.collection('users').update( userId, { Subscription }); /* `${userid}` */
+				await adminClient.collection('users').update( userId, { Subscription }); // Update Subscription Stuff
 			} else {
                 console.log("Fail")
 			}

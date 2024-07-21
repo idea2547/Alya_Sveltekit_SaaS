@@ -125,7 +125,7 @@
 		<div class="relative mt-20">
 			<div aria-hidden="true" class="absolute inset-0 -bottom-20 mx-auto mt-auto h-[50rem] w-[68rem] rounded-full bg-secondaryLight/50 blur-3xl dark:bg-secondary/40 md:m-auto"></div>
 			<div class="m-auto items-center justify-center -space-y-4 md:flex md:space-y-0 md:-space-x-1">
-				<div class="relative z-10 -mx-2 rounded-3xl border border-gray-100 bg-white shadow-2xl shadow-gray-600/10 dark:border-gray-700/60 dark:bg-gray-800 dark:shadow-none md:mx-0 md:w-6/12 lg:w-5/12">
+				<div class="relative z-50 -mx-2 rounded-3xl border border-gray-100 bg-white shadow-2xl shadow-gray-600/10 dark:border-gray-700/60 dark:bg-gray-800 dark:shadow-none md:mx-0 md:w-6/12 lg:w-5/12">
 					<div class="space-y-6 p-8 sm:p-12">
 						<div class="flex items-center justify-center gap-4">
 							<div class="flex h-16 w-16 rounded-full border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800">
